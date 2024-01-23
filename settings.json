@@ -1,0 +1,26 @@
+{
+    "general": {
+        "random_state": 42,
+        "data_dir": "data",
+        "models_dir": "models",
+        "results_dir": "results",
+        "log_dir": "logs"
+    },
+    "train": {
+        "table_name": "data_train.csv",
+        "test_size": 0.2,
+        "validation_split": 0.1,
+        "shuffle": true,
+        "stratify": true
+    },
+    "inference": {
+        "model_name": "neural_model.pkl",
+        "inp_table_name": "data_inference.csv",
+        "batch_size": 100
+    },
+    "logging": {
+        "level": "INFO",
+        "format": "%(asctime)s - %(levelname)s - %(message)s"
+    }
+}
+
