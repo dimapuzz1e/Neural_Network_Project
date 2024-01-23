@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/    # Cache directory for Python byte-compiled files
+*.py[cod]       # Python compiled files: .pyc, .pyo, and .pyd (Windows DLL files)
+
+# IDE Configuration
+.vscode         # Visual Studio Code configuration and settings directory
+
+# Directories
+data/           # Directory for data files, such as datasets, inputs, etc.
+models/         # Directory for storing trained model files
+results/        # Directory for output files, like processed results and logs
+
+# File Extensions
+*.csv           # CSV files, commonly used for storing tabular data
+*.pkl           # Pickle files, used for serializing and saving Python objects
